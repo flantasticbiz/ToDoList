@@ -1,3 +1,13 @@
-nav button, #btn {
+nav button, #btn, .btn {
   border-radius: 20px !important;
+}
+
+#submit {
+  width: 30% !important;
+  border-radius: 20px !important;
+}
+
+.para {
+  width: 50% !important;
+  justify-self: center;
 }
