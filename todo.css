@@ -1,3 +1,14 @@
 nav button, #btn {
   border-radius: 20px !important;
 }
+
+.anchor {
+  text-decoration: none !important;
+}
+
+.anchor:hover {
+  color: white !important;
+  background-color: rgb(79, 96, 245);
+  border-radius: 10px;
+  padding: 3px;
+}
