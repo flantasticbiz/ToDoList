@@ -11,3 +11,19 @@ nav button, #btn, .btn {
   width: 50% !important;
   justify-self: center;
 }
+
+.anchor {
+  text-decoration: none !important;
+}
+
+.anchor:hover {
+  background-color: rgb(32, 95, 230) !important;
+  padding: 5px !important;
+  border-radius: 10px !important;
+  color: white !important;
+}
+
+.h6-lag {
+  text-align: start;
+  margin-left: 350px;
+}

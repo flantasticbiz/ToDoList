@@ -1,7 +1,7 @@
 const submit = document.getElementById('submit')
-const apiKey = API;
+const apiKey = 'key';
 const city = 'Lagos';
-const url = 'https://';
+const url = 'https://weather.com';
 
 async function getWeather(params) {
   try{
@@ -18,7 +18,7 @@ async function getWeather(params) {
   }
 }
 
-async function main(params) {
+async function main() {
   const weather = await getWeather();
   if(weather){
     console.log(`Temperature: ${weather.temperature}oC`);
