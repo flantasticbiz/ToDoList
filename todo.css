@@ -1,9 +1,13 @@
-nav button, #btn {
+nav button, #btn, .in-put {
   border-radius: 20px !important;
 }
 
 .anchor {
   text-decoration: none !important;
+}
+
+.in-put {
+  width: 30% !important;
 }
 
 .anchor:hover {
